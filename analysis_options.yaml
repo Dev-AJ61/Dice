@@ -1,0 +1,19 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # ===== Style & Readability =====
+    prefer_single_quotes: true
+    always_declare_return_types: true
+    prefer_final_fields: true
+    flutter_style_todos: true
+
+    # ===== Error Prevention & Null Safety =====
+    avoid_print: true
+    always_require_non_null_named_parameters: true
+
+    # ===== Flutter Best Practices & Performance =====
+    use_key_in_widget_constructors: true
+    avoid_unnecessary_containers: true
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
